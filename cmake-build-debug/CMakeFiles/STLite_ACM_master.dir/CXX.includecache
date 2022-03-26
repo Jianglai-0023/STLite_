@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jianglai/Desktop/STLite_ACM-master/map/data/five/code.cpp
+map.hpp
+/Users/jianglai/Desktop/STLite_ACM-master/map/data/five/map.hpp
+iostream
+-
+cassert
+-
+string
+-
+
+/Users/jianglai/Desktop/STLite_ACM-master/map/data/five/map.hpp
+functional
+-
+cstddef
+-
+iostream
+-
+../../utility.hpp
+/Users/jianglai/Desktop/STLite_ACM-master/map/utility.hpp
+../../exceptions.hpp
+/Users/jianglai/Desktop/STLite_ACM-master/map/exceptions.hpp
+
+/Users/jianglai/Desktop/STLite_ACM-master/map/exceptions.hpp
+cstddef
+-
+cstring
+-
+string
+-
+
+/Users/jianglai/Desktop/STLite_ACM-master/map/utility.hpp
+utility
+-
+
