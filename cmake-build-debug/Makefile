@@ -129,29 +129,29 @@ STLite_ACM_master/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/STLite_ACM_master.dir/build.make CMakeFiles/STLite_ACM_master.dir/build
 .PHONY : STLite_ACM_master/fast
 
-map/data/five/code.o: map/data/five/code.cpp.o
-.PHONY : map/data/five/code.o
+map/data/toy_traits_test/test.o: map/data/toy_traits_test/test.cpp.o
+.PHONY : map/data/toy_traits_test/test.o
 
 # target to build an object file
-map/data/five/code.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/STLite_ACM_master.dir/build.make CMakeFiles/STLite_ACM_master.dir/map/data/five/code.cpp.o
-.PHONY : map/data/five/code.cpp.o
+map/data/toy_traits_test/test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/STLite_ACM_master.dir/build.make CMakeFiles/STLite_ACM_master.dir/map/data/toy_traits_test/test.cpp.o
+.PHONY : map/data/toy_traits_test/test.cpp.o
 
-map/data/five/code.i: map/data/five/code.cpp.i
-.PHONY : map/data/five/code.i
+map/data/toy_traits_test/test.i: map/data/toy_traits_test/test.cpp.i
+.PHONY : map/data/toy_traits_test/test.i
 
 # target to preprocess a source file
-map/data/five/code.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/STLite_ACM_master.dir/build.make CMakeFiles/STLite_ACM_master.dir/map/data/five/code.cpp.i
-.PHONY : map/data/five/code.cpp.i
+map/data/toy_traits_test/test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/STLite_ACM_master.dir/build.make CMakeFiles/STLite_ACM_master.dir/map/data/toy_traits_test/test.cpp.i
+.PHONY : map/data/toy_traits_test/test.cpp.i
 
-map/data/five/code.s: map/data/five/code.cpp.s
-.PHONY : map/data/five/code.s
+map/data/toy_traits_test/test.s: map/data/toy_traits_test/test.cpp.s
+.PHONY : map/data/toy_traits_test/test.s
 
 # target to generate assembly for a file
-map/data/five/code.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/STLite_ACM_master.dir/build.make CMakeFiles/STLite_ACM_master.dir/map/data/five/code.cpp.s
-.PHONY : map/data/five/code.cpp.s
+map/data/toy_traits_test/test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/STLite_ACM_master.dir/build.make CMakeFiles/STLite_ACM_master.dir/map/data/toy_traits_test/test.cpp.s
+.PHONY : map/data/toy_traits_test/test.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... STLite_ACM_master"
-	@echo "... map/data/five/code.o"
-	@echo "... map/data/five/code.i"
-	@echo "... map/data/five/code.s"
+	@echo "... map/data/toy_traits_test/test.o"
+	@echo "... map/data/toy_traits_test/test.i"
+	@echo "... map/data/toy_traits_test/test.s"
 .PHONY : help
 
 

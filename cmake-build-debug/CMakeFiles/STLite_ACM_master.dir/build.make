@@ -66,27 +66,27 @@ include CMakeFiles/STLite_ACM_master.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/STLite_ACM_master.dir/flags.make
 
-CMakeFiles/STLite_ACM_master.dir/map/data/five/code.cpp.o: CMakeFiles/STLite_ACM_master.dir/flags.make
-CMakeFiles/STLite_ACM_master.dir/map/data/five/code.cpp.o: ../map/data/five/code.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jianglai/Desktop/STLite_ACM-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/STLite_ACM_master.dir/map/data/five/code.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/STLite_ACM_master.dir/map/data/five/code.cpp.o -c /Users/jianglai/Desktop/STLite_ACM-master/map/data/five/code.cpp
+CMakeFiles/STLite_ACM_master.dir/map/data/toy_traits_test/test.cpp.o: CMakeFiles/STLite_ACM_master.dir/flags.make
+CMakeFiles/STLite_ACM_master.dir/map/data/toy_traits_test/test.cpp.o: ../map/data/toy_traits_test/test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jianglai/Desktop/STLite_ACM-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/STLite_ACM_master.dir/map/data/toy_traits_test/test.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/STLite_ACM_master.dir/map/data/toy_traits_test/test.cpp.o -c /Users/jianglai/Desktop/STLite_ACM-master/map/data/toy_traits_test/test.cpp
 
-CMakeFiles/STLite_ACM_master.dir/map/data/five/code.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/STLite_ACM_master.dir/map/data/five/code.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jianglai/Desktop/STLite_ACM-master/map/data/five/code.cpp > CMakeFiles/STLite_ACM_master.dir/map/data/five/code.cpp.i
+CMakeFiles/STLite_ACM_master.dir/map/data/toy_traits_test/test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/STLite_ACM_master.dir/map/data/toy_traits_test/test.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jianglai/Desktop/STLite_ACM-master/map/data/toy_traits_test/test.cpp > CMakeFiles/STLite_ACM_master.dir/map/data/toy_traits_test/test.cpp.i
 
-CMakeFiles/STLite_ACM_master.dir/map/data/five/code.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/STLite_ACM_master.dir/map/data/five/code.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jianglai/Desktop/STLite_ACM-master/map/data/five/code.cpp -o CMakeFiles/STLite_ACM_master.dir/map/data/five/code.cpp.s
+CMakeFiles/STLite_ACM_master.dir/map/data/toy_traits_test/test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/STLite_ACM_master.dir/map/data/toy_traits_test/test.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jianglai/Desktop/STLite_ACM-master/map/data/toy_traits_test/test.cpp -o CMakeFiles/STLite_ACM_master.dir/map/data/toy_traits_test/test.cpp.s
 
 # Object files for target STLite_ACM_master
 STLite_ACM_master_OBJECTS = \
-"CMakeFiles/STLite_ACM_master.dir/map/data/five/code.cpp.o"
+"CMakeFiles/STLite_ACM_master.dir/map/data/toy_traits_test/test.cpp.o"
 
 # External object files for target STLite_ACM_master
 STLite_ACM_master_EXTERNAL_OBJECTS =
 
-STLite_ACM_master: CMakeFiles/STLite_ACM_master.dir/map/data/five/code.cpp.o
+STLite_ACM_master: CMakeFiles/STLite_ACM_master.dir/map/data/toy_traits_test/test.cpp.o
 STLite_ACM_master: CMakeFiles/STLite_ACM_master.dir/build.make
 STLite_ACM_master: CMakeFiles/STLite_ACM_master.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jianglai/Desktop/STLite_ACM-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable STLite_ACM_master"

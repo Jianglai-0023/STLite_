@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/jianglai/Desktop/STLite_ACM-master/map/data/five/code.cpp" "/Users/jianglai/Desktop/STLite_ACM-master/cmake-build-debug/CMakeFiles/STLite_ACM_master.dir/map/data/five/code.cpp.o"
+  "/Users/jianglai/Desktop/STLite_ACM-master/map/data/toy_traits_test/test.cpp" "/Users/jianglai/Desktop/STLite_ACM-master/cmake-build-debug/CMakeFiles/STLite_ACM_master.dir/map/data/toy_traits_test/test.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

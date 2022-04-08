@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/STLite_ACM_master.dir/map/data/five/code.cpp.o"
+  "CMakeFiles/STLite_ACM_master.dir/map/data/toy_traits_test/test.cpp.o"
   "STLite_ACM_master"
   "STLite_ACM_master.pdb"
 )

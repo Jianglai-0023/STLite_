@@ -10,8 +10,13 @@
 #include "utility.hpp"
 #include "exceptions.hpp"
 
-namespace sjtu {
-
+namespace sjtu{
+    struct my_true_type{};
+    struct my_false_type{};
+    template<class S>
+    struct my_type_traits{
+        typedef typename S::isconst iterator_assignable;
+    };
 template<
 	class Key,
 	class T,
@@ -53,6 +58,7 @@ public:
 	class iterator {
         friend class map;
         friend class const_iterator;
+
 	private:
 		/**
 		 * TODO add data members
@@ -62,6 +68,7 @@ public:
          const map* me;
          bool isend = false;
 	public:
+
 		// The following code is written for the C++ type_traits library.
 		// Type traits is a C++ feature for describing certain properties of a type.
 		// For instance, for an iterator, iterator::value_type is the type that the 
@@ -74,9 +81,10 @@ public:
 		// About iterator_category: https://en.cppreference.com/w/cpp/iterator
 		using difference_type = std::ptrdiff_t;
 		using value_type = T;
-		using pointer = T*;
+		using pointer = int;
 		using reference = T&;
 		using iterator_category = std::output_iterator_tag;
+        using isconst = my_false_type;
 		// If you are interested in type_traits, toy_traits_test provides a place to 
 		// practice. But the method used in that test is old and rarely used, so you
 		// may explore on your own.
@@ -218,6 +226,9 @@ public:
         friend class iterator;
 		// it should has similar member method as iterator.
 		//  and it should be able to construct from an iterator.
+    public:
+        using pointer = char;
+        using isconst = my_true_type;
 		private:
 			const Node*point_c = nullptr;
             const map*me = nullptr;
@@ -356,6 +367,8 @@ public:
               return point_c->data;
         }
 	};
+
+
 	/**
 	 * TODO two constructors
 	 */
@@ -747,10 +760,18 @@ private:
             else return true;
         }
     }
-
-
-
 };
+
+    template<>
+    struct my_type_traits<map<class Key,
+            class T>::iterator>{
+        typedef my_true_type iterator_assignable;
+    };
+    template<>
+    struct my_type_traits<map<class Key,
+            class T>::const_iterator>{
+        typedef my_false_type iterator_assignable;
+    };
 
 }
 

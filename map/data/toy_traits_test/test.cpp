@@ -4,11 +4,11 @@
 
 #include <iostream>
 #include <algorithm>
-#include "map.h"
+#include "map.hpp"
 using namespace std;
 
 template<class T>
-void toy_traits_assignable(T iter, sjtu::my_true_type) {
+void toy_traits_assignable(T iter, sjtu::my_true_type) {//传入的参数（一个结构体）
     cout<<"iterator pointing to pair("<<iter->first<<','<<iter->second<<") is assignable\n";
 }
 
@@ -30,6 +30,7 @@ int main() {
     a[2] = 2;
     a[3] = 3;
     toy_traits_func(++a.begin());
-    toy_traits_func(a.cbegin());
+    auto p = a.cbegin();
+    toy_traits_func(p);
     return 0;
 }

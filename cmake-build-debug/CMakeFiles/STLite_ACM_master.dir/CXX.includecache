@@ -6,29 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/jianglai/Desktop/STLite_ACM-master/map/data/five/code.cpp
-map.hpp
-/Users/jianglai/Desktop/STLite_ACM-master/map/data/five/map.hpp
-iostream
--
-cassert
--
-string
--
-
-/Users/jianglai/Desktop/STLite_ACM-master/map/data/five/map.hpp
-functional
--
-cstddef
--
-iostream
--
-../../utility.hpp
-/Users/jianglai/Desktop/STLite_ACM-master/map/utility.hpp
-../../exceptions.hpp
-/Users/jianglai/Desktop/STLite_ACM-master/map/exceptions.hpp
-
-/Users/jianglai/Desktop/STLite_ACM-master/map/exceptions.hpp
+../priority_queue/src/exceptions.hpp
 cstddef
 -
 cstring
@@ -36,7 +14,25 @@ cstring
 string
 -
 
-/Users/jianglai/Desktop/STLite_ACM-master/map/utility.hpp
+../priority_queue/src/utility.hpp
 utility
 -
+
+/Users/jianglai/Desktop/STLite_ACM-master/map/data/toy_traits_test/map.hpp
+functional
+-
+cstddef
+-
+utility.hpp
+/Users/jianglai/Desktop/STLite_ACM-master/map/data/toy_traits_test/utility.hpp
+exceptions.hpp
+/Users/jianglai/Desktop/STLite_ACM-master/map/data/toy_traits_test/exceptions.hpp
+
+/Users/jianglai/Desktop/STLite_ACM-master/map/data/toy_traits_test/test.cpp
+iostream
+-
+algorithm
+-
+map.hpp
+/Users/jianglai/Desktop/STLite_ACM-master/map/data/toy_traits_test/map.hpp
 
