@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD 14)
 include_directories(priority_queue/src)
 
 add_executable(STLite_ACM_master
-        map/data/toy_traits_test/test.cpp
-        map/exceptions.hpp
-        map/data/toy_traits_test/map.hpp
-        map/utility.hpp)
+        linked_hashmap/data/testone/1.cpp
+        linked_hashmap/exceptions.hpp
+        linked_hashmap/data/testone/linked_hashmap.hpp
+        linked_hashmap/utility.hpp)

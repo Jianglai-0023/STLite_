@@ -762,16 +762,15 @@ private:
     }
 };
 
-    template<>
-    struct my_type_traits<map<class Key,
-            class T>::iterator>{
-        typedef my_true_type iterator_assignable;
-    };
-    template<>
-    struct my_type_traits<map<class Key,
-            class T>::const_iterator>{
-        typedef my_false_type iterator_assignable;
-    };
+//    template<typename Key,typename T>
+//    struct my_type_traits<typename map<typename Key,typename T,typename T>::iterator>{
+//        typedef my_true_type iterator_assignable;
+//    };
+//    template<>
+//    struct my_type_traits<map<class Key,
+//            class T>::const_iterator>{
+//        typedef my_false_type iterator_assignable;
+//    };
 
 }
 

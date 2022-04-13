@@ -129,29 +129,29 @@ STLite_ACM_master/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/STLite_ACM_master.dir/build.make CMakeFiles/STLite_ACM_master.dir/build
 .PHONY : STLite_ACM_master/fast
 
-map/data/toy_traits_test/test.o: map/data/toy_traits_test/test.cpp.o
-.PHONY : map/data/toy_traits_test/test.o
+linked_hashmap/data/testone/1.o: linked_hashmap/data/testone/1.cpp.o
+.PHONY : linked_hashmap/data/testone/1.o
 
 # target to build an object file
-map/data/toy_traits_test/test.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/STLite_ACM_master.dir/build.make CMakeFiles/STLite_ACM_master.dir/map/data/toy_traits_test/test.cpp.o
-.PHONY : map/data/toy_traits_test/test.cpp.o
+linked_hashmap/data/testone/1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/STLite_ACM_master.dir/build.make CMakeFiles/STLite_ACM_master.dir/linked_hashmap/data/testone/1.cpp.o
+.PHONY : linked_hashmap/data/testone/1.cpp.o
 
-map/data/toy_traits_test/test.i: map/data/toy_traits_test/test.cpp.i
-.PHONY : map/data/toy_traits_test/test.i
+linked_hashmap/data/testone/1.i: linked_hashmap/data/testone/1.cpp.i
+.PHONY : linked_hashmap/data/testone/1.i
 
 # target to preprocess a source file
-map/data/toy_traits_test/test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/STLite_ACM_master.dir/build.make CMakeFiles/STLite_ACM_master.dir/map/data/toy_traits_test/test.cpp.i
-.PHONY : map/data/toy_traits_test/test.cpp.i
+linked_hashmap/data/testone/1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/STLite_ACM_master.dir/build.make CMakeFiles/STLite_ACM_master.dir/linked_hashmap/data/testone/1.cpp.i
+.PHONY : linked_hashmap/data/testone/1.cpp.i
 
-map/data/toy_traits_test/test.s: map/data/toy_traits_test/test.cpp.s
-.PHONY : map/data/toy_traits_test/test.s
+linked_hashmap/data/testone/1.s: linked_hashmap/data/testone/1.cpp.s
+.PHONY : linked_hashmap/data/testone/1.s
 
 # target to generate assembly for a file
-map/data/toy_traits_test/test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/STLite_ACM_master.dir/build.make CMakeFiles/STLite_ACM_master.dir/map/data/toy_traits_test/test.cpp.s
-.PHONY : map/data/toy_traits_test/test.cpp.s
+linked_hashmap/data/testone/1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/STLite_ACM_master.dir/build.make CMakeFiles/STLite_ACM_master.dir/linked_hashmap/data/testone/1.cpp.s
+.PHONY : linked_hashmap/data/testone/1.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... STLite_ACM_master"
-	@echo "... map/data/toy_traits_test/test.o"
-	@echo "... map/data/toy_traits_test/test.i"
-	@echo "... map/data/toy_traits_test/test.s"
+	@echo "... linked_hashmap/data/testone/1.o"
+	@echo "... linked_hashmap/data/testone/1.i"
+	@echo "... linked_hashmap/data/testone/1.s"
 .PHONY : help
 
 
